@@ -24,7 +24,6 @@ p {
 }
 
 div {
-	padding-right: 30px;
 	height: 100%;
 	width: 100%;
 }
@@ -39,6 +38,7 @@ div {
 	min-width: 140px;
 	font-size: 12px;
 	flex: 1;
+	padding-right: 30px;
 	padding-left: 10px;
 }
 
@@ -55,6 +55,29 @@ div {
 .main {
 	padding-left: 30px;
 	min-width: 75%;
+}
+
+/*.main img {
+	width: 180px;
+	height: 180px;
+	position: relative;
+	margin-bottom: 20px;
+}*/
+
+.main h3 {
+	position: absolute;
+	text-align: center;
+	top: 90px;
+}
+
+.image {
+	position: relative;
+	/*bottom: ;*/
+	/*margin-bottom: 20px;	*/
+	width: 180px;
+	height: 180px;
+	font: 12px sans-serif;
+	text-align: center;
 }
 
 /*.resources {
