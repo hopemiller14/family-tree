@@ -57,33 +57,28 @@ div {
 	min-width: 75%;
 }
 
-/*.main img {
-	width: 180px;
-	height: 180px;
-	position: relative;
-	margin-bottom: 20px;
-}*/
-
-.main h3 {
-	position: absolute;
-	text-align: center;
-	top: 90px;
-}
-
 .image {
-	position: relative;
-	/*bottom: ;*/
-	/*margin-bottom: 20px;	*/
-	width: 180px;
-	height: 180px;
-	font: 12px sans-serif;
-	text-align: center;
+	position: absolute;
+	width: 90px;
+	height: 90px;
 }
 
-/*.resources {
-	font-size: 12px;
-}*/
+#female {
+	position: absolute;
+	background-image: url(images/female.png);
+	background-size: 90px 90px;
+}
 
-/*.nav h1 {
-	padding-left: 20px;
-}*/
+#male {
+	position: absolute;
+	background-image: url(images/male.png);
+	background-size: 90px 90px;
+}
+
+.userInfo {
+	position: absolute;
+	padding-top: 20px;
+	font-size: 12px; 
+	font-family: sans-serif;
+	text-align: center;
+}
