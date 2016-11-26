@@ -6,7 +6,7 @@ Objectives:
 
 Acceptance Criteria:
 * page contains full name (maiden and married), birthdate, death date (if applicable) for each family member
-** optional: birth place, link to birth place on map
+** optional: birth place, link to birth place on map, photos, relationship to me (ex: step-sister)
 * page shows relationships between relatives: marriages, children
 ** optional: divorced, marriage/divorce dates
 * family branches:
