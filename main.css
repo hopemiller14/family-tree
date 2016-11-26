@@ -6,17 +6,21 @@ html, body {
 }
 
 h1 {
-	font-size: 48 px;
+	font-size: 48px;
 }
 
 h2 {
-	text-align: center;
-	font-size: 2.6rem;
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 32px;
 }
 
 p {
 	max-width: 65%;
 	min-width: 500px;
+	font-size: 16px;
 }
 
 div {
@@ -30,10 +34,22 @@ div {
 }
 
 .nav {
-	background-color: #FFEE00;
+	background-color: #F0F0F0;
 	max-width: 25%;
 	min-width: 140px;
+	font-size: 12px;
 	flex: 1;
+	padding-left: 10px;
+}
+
+.nav h1 {
+	font-size: 12px;
+}
+
+.nav ul {
+	list-style-type: circle;
+	/*left: 5px;*/
+	margin-left: -25px; /* Hope to play around with this more later*/
 }
 
 .main {
@@ -41,9 +57,9 @@ div {
 	min-width: 75%;
 }
 
-.resources {
+/*.resources {
 	font-size: 12px;
-}
+}*/
 
 /*.nav h1 {
 	padding-left: 20px;
