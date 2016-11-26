@@ -19,3 +19,16 @@ Acceptance Criteria:
 * page contains nav menu
 * page uses basic HTML, CSS, JS
 ** optional: ReactJS, npm/node, BE; possibly do another version in the future with the MEAN stack
+
+TODO:
+working file = lane.html
+*position shapes relative to each other on page (ex: husband-wife)
+*make image files for new shapes:
+**horizontal line for marriage
+**horizontal line with // for divorce
+**vertical line for child
+**family specific pages:
+**dashed horizontal line for marriage in different line
+**dashed horizontal line with // for divorce in different line
+**dashed outline of circle for female in different line
+**dashed outline of square for male in different line
